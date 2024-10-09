@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Musawa City</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/1.jpg" alt="Musawa City" class="header-image" loading="lazy">
+            <div class="header-overlay">
+                <div class="header-main-text">Visit Musawa City</div>
+                <div class="header-subtext">Enjoy a wonderful blend of urban development and countryside life</div>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-card">
+                <div class="info-image">
+                    <img src="img/3.jpg" alt="Your guide" loading="lazy">
+                </div>
+                <div class="info-content">
+                    <h3>Your guide</h3>
+                    <p>“I have lived at Musawa, so I can show you all of its best parts and hidden secrets.”</p>
+                    <p><strong>Ahmed Hassan</strong></p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-image">
+                    <img src="img/2.jpg" alt="Port city" loading="lazy">
+                </div>
+                <div class="info-content">
+                    <h3>Visit beautiful port city</h3>
+                    <p>Is a beautiful port sea, just off the coast of Musawa city.</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-image">
+                    <img src="img/5.jpg" alt="Corso Venezia" loading="lazy">
+                </div>
+                <div class="info-content">
+                    <h3>Corso Venezia</h3>
+                    <p>Corso Venezia, boats and architecture, Massawa old town.</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-image">
+                    <img src="img/4.jpg" alt="Historic district street" loading="lazy">
+                </div>
+                <div class="info-content">
+                    <h3>Historic district street</h3>
+                    <p>Old town facades and the Port of Massawa gate on Via Milano.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="financeTracker">
+        <h2>Your Finances</h2>
+        <input type="number" id="amountInput" placeholder="Enter amount">
+        <button id="addButton">Add</button>
+
+        <h2>Earnings</h2>
+        <ul id="earningsList"></ul>
+        <p>Total Earnings: <span id="totalEarnings">0</span></p>
+
+        <h2>Expenses</h2>
+        <ul id="expensesList"></ul>
+        <p>Total Expenses: <span id="totalExpenses">0</span></p>
+
+        <h2>Balance</h2>
+        <p>Total Balance: <span id="totalBalance">0</span></p>
+
+        <script src="script.js"></script>
+    </section>
+</body>
+</html>

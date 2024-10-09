@@ -1,0 +1,136 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic', Arial, sans-serif;
+  background-color: #f1faee;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Maximum width for large screens */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-main-text {
+  font-size: 1.8rem; /* Scalable units for fonts */
+  color: white;
+  font-weight: bold;
+  background-color: #1D3557;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header-subtext {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #457B9D;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Info Section */
+.info-section {
+  display: grid;
+  grid-template-columns: 1fr; /* One column for small screens */
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.info-card {
+  padding: 10px;
+  background-color: #F1FAEE;
+  box-shadow: 0px 6px 0px #1D3557;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.info-content h3 {
+  color: #1D3557;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.info-content p {
+  color: #1D3557;
+  font-size: 1rem;
+}
+
+/* Responsive Layout for Tablets and Larger Screens */
+@media (min-width: 768px) {
+  .info-section {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+  }
+}
+
+@media (min-width: 1200px) {
+  .info-section {
+    grid-template-columns: repeat(4, 1fr); /* Four columns for large screens */
+  }
+
+  .header-main-text {
+    font-size: 2.4rem;
+  }
+
+  .header-subtext {
+    font-size: 1.6rem;
+  }
+}
+
+/* Finance Tracker Section */
+#financeTracker {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+h2 {
+  color: #1D3557;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
